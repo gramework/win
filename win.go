@@ -6,5 +6,6 @@ import (
 )
 
 func win(app *gramework.App) {
-	v0.Register(app.Domain("gramework.win").Sub("/v0"))
+	domain := app.Domain("gramework.win").GET("/f777d0332159.html", "ec3f5942dd6a")
+	v0.Register(domain.Sub("/v0"))
 }
