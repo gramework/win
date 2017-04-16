@@ -3,6 +3,8 @@ package main
 import (
 	"time"
 
+	"github.com/apex/log"
+
 	"github.com/gramework/gramework"
 )
 
@@ -23,5 +25,9 @@ func setup(app *gramework.App) {
 			return
 		}
 		app.Forbidden(ctx)
+		app.Logger.WithFields(log.Fields{
+			"ip":  ctx.RemoteIP().String(),
+			"url": ctx.URI().String(),
+		}).Infof("blocked")
 	})
 }
