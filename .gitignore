@@ -24,7 +24,8 @@ _testmain.go
 *.prof
 coverage.txt
 profile.out
-
+cpu.out
+mem.out
 
 tls-gramecache.dev
 tls-gramecache
@@ -32,6 +33,8 @@ tls-gramecache
 infraclient
 intercom
 users
+
+build
 
 test_cert.pem
 test_key.pem
