@@ -1,0 +1,26 @@
+{
+	"extends": "stylelint-config-standard",
+	"rules": {
+		"indentation": "tab",
+		"number-leading-zero": null,
+		"property-no-unknown": [
+			true,
+			{
+				"ignoreProperties": [
+					"composes"
+				]
+			}
+		],
+		"unit-whitelist": [
+			"em",
+			"rem",
+			"%",
+			"px",
+			"s",
+			"ms"
+		],
+		"selector-pseudo-class-no-unknown": null,
+		"selector-list-comma-newline-after": null,
+		"no-empty-source": null
+	}
+}

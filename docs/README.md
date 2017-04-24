@@ -26,6 +26,7 @@ Project root.
 - CONTRIGUTING.md -> /docs/CONTRIBUTING.md: used by github
 
 **Files:**
+- `.editorconfig`: config for editors made to match our style guidelines
 - `run_*.g{o,l}`: project runners
 - `sf.go`: `/securityFeedback` register
 - `win.go`: `/win` register

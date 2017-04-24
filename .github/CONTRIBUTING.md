@@ -3,7 +3,7 @@
 We have some strict rules for contributing, please read and respect it to contribute.
 
 # General rules
-- Respect licenses. Include 3rd-party licenses in `/3rd-Party licenses` directory.
+- Respect licenses. Include 3rd-party licenses in `/3rd-Party licenses/{used project name}` directory.
 - Write stable high performance and effective code.
 - Respect our rule set in the docs/README.md.
 

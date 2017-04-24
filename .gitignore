@@ -47,3 +47,10 @@ win.img
 *.out
 
 .infrastructure
+
+
+flow
+flow-typed
+node_modules
+*.log
+dist
