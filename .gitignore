@@ -48,8 +48,6 @@ win.img
 
 .infrastructure
 
-
-flow
 flow-typed
 node_modules
 *.log
