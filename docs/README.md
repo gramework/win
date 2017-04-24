@@ -17,7 +17,7 @@ Project root.
 
 **Allowed root-level files:**
 - Links to files project's subfolder (like Vagrantfile -> /ops/_Vagrantfile)
-- .git* files
+- .git* files and .github dir
 - Files, if documented below
 
 **Links:**
