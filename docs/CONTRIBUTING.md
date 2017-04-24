@@ -3,8 +3,9 @@
 We have some strict rules for contributing, please read and respect it to contribute.
 
 # General rules
-- Respect licenses.
+- Respect licenses. Include 3rd-party licenses in `/3rd-Party licenses` directory.
 - Write stable high performance and effective code.
+- Respect our rule set in the docs/README.md.
 
 # Frontend-only rules
 
