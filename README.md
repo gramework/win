@@ -2,7 +2,7 @@
 
 Sources for the win! ;)
 
-# Setup and run
+# Setup and run for development
 
 ### 1. Clone
 
@@ -29,3 +29,11 @@ git clone --recursive -j8 git@github.com:gramework/win.git
 go build
 sudo setcap cap_net_bind_service=+ep && ./win || sudo ./win || ./win
 ```
+
+# Project structure
+
+Documented in docs/README.md
+
+# Contributing
+
+Documented in .github/CONTRIBUTING.md
