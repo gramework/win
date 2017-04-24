@@ -23,6 +23,7 @@ Project root.
 **Links:**
 - Vagrantfile -> /ops/_Vagrantfile, ansible.cfg -> /ops/ansible.cfg: deployment done from project root, not `/ops` folder.
   Also, vagrant by default copying only current working directory.
+- CONTRIGUTING.md -> /docs/CONTRIBUTING.md: used by github
 
 **Files:**
 - `run_*.g{o,l}`: project runners
